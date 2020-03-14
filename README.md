@@ -22,4 +22,4 @@ CONFIGURATION:
   4. This module provides a url which responds a json representation of node
      only if node type is page and Site API Key is set. If any condition
      fails then it return access denied as response.
-  5. Url is : page_json/{siteapikey}/{nodeid}
+  5. Url is : /page_json/{siteapikey}/{nodeid}
