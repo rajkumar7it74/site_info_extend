@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Implements hook_uninstall().
+ */
+function site_info_extend_uninstall() {
+  // Clear "siteapikey" at the time of uninstalling module.
+  \Drupal::configFactory()->getEditable('system.site')->clear('siteapikey')->save();
+}

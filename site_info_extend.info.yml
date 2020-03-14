@@ -1,0 +1,5 @@
+name: Extend site information Form
+description: Add Site API key in site information form to extend.
+package: Custom
+type: module
+core: 8.x

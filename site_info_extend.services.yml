@@ -1,0 +1,8 @@
+services:
+  site_info_extend.route_subscriber:
+    # Below line will tell drupal that which class is to use.
+    class: 'Drupal\site_info_extend\Routing\SiteInfoExtendRouteSubscriber'
+    # Next code is key, as it tells drupalto use our class our class
+    # when building routes.
+    tags:
+      - { name: event_subscriber }
